@@ -1,0 +1,140 @@
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: #90EE90;
+}
+
+figure{
+    margin: 0px;
+    padding: 0px;
+}
+
+hr{
+    border:#98FB98 1px solid;
+    width: 1100px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.title{
+    color: chocolate;
+    font-family: 'Fredoka One', cursive;
+    font-size: 3em;
+    text-align: center;
+}
+
+figcaption{
+    font-size: 0.6em;
+    font-weight: 300;
+    color:#556B2F;
+    text-transform: uppercase;
+    margin-left: 5px;
+}
+
+.img_animal{
+    border:#98FB98 3px solid;
+    border-radius: 5px;
+    margin-right: 30px;
+}
+
+.conteudo_animal{
+    display: block;
+    height: 505px;
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;}
+
+.conteudo_animal figure{
+    float: left;
+    display: inline;
+}
+
+.conteudo_animal p{
+    text-align: justify;
+    color: #556B2F;
+}
+
+.conteudo_caracteristicas{
+    display: block;
+    height: 740px;
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+.conteudo_caracteristicas p{
+    text-align: justify;
+    color: #556B2F; 
+}
+
+.conteudo_caracteristicas figure{
+    float: left;
+    display: inline;
+}
+
+
+.conteudo_caracteristicas ul li{
+    color: #556B2F; 
+    list-style: "\279C";
+    padding: 5px;
+    background-color: #98FB98;
+    margin-bottom: 8px;
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+.conteudo_caracteristicas ul li a{
+    color: chocolate;
+    text-decoration: none;
+}
+.conteudo_caracteristicas ul li a:hover{
+    color: #556B2F; 
+}
+
+
+footer p{
+    text-align: center;
+    color: #556B2F;
+}
+
+nav{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+button {
+    background-color: chocolate; 
+    border: 2px solid #98FB98;
+    color: #98FB98;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Fredoka One', cursive;
+    border-radius: 5px;
+
+  }
+
+
+button:hover{
+    background-color: #98FB98;
+    color: #556B2F;
+    border: 2px solid #556B2F;
+}
+
+mark{
+    background-color: #98FB98;
+    color: chocolate;
+    font-family: 'Fredoka One', cursive;
+}
+
+.listainline li{
+    display: inline;
+}
